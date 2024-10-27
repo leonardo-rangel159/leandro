@@ -1,0 +1,233 @@
+/* Carrega a fonte personalizada 'Naruto' */
+@font-face {
+    font-family: 'Naruto';
+    src: url('njnaruto.ttf');
+}
+
+/* Define estilos básicos para html, body e container */
+html, body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    width: 100%; /* Define largura para 100% da tela */
+    height: 100%; /* Define altura para 100% da tela */
+    
+    background-repeat: no-repeat; /* Não repete a imagem de fundo */
+    background-attachment: fixed; /* Fixa a imagem de fundo ao rolar a página */
+    background-size: 80% 90%; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem de fundo */
+
+    overflow: hidden; /* Oculta barras de rolagem */
+}
+
+body{
+    background-image: url("../imagem/fundos/1.jpg");
+    background-color: #000000; /* Define uma cor de fundo, por exemplo, cinza claro */
+}
+
+.container {
+    display: flex; /* Usar layout flexível */
+    justify-content: center; /* Centraliza conteúdo horizontalmente */
+    align-items: center; /* Centraliza conteúdo verticalmente */
+    flex-direction: column; /* Alinha conteúdo em coluna */
+    height: calc(100vh - 70px); /* Altura da viewport menos a altura da navbar */
+    margin-top: 70px; /* Espaço para a altura da navbar */
+}
+
+
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: rgba(78, 26, 77, 0.8); /* Cor de fundo com opacidade */
+    padding: 1rem; /* Espaçamento interno */
+    position: fixed; /* Fixa no topo da página */
+    width: 100%; /* Largura total */
+    top: 0; /* Alinha ao topo */
+    z-index: 1000; /* Coloca a barra acima de outros elementos */
+}
+
+.navbar .containerNav {
+    display: flex; /* Usar layout flexível para os links */
+    justify-content: space-around; /* Espaçamento igual entre os links */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: row; /* Garante que os itens estejam lado a lado */
+}
+
+.navbar a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    transition: color 0.3s; /* Transição suave para a mudança de cor */
+    margin: 0; /* Removendo margens laterais para evitar quebras */
+    padding: 0 1rem; /* Espaço lateral entre os links */
+}
+
+.navbar a:hover {
+    color: #ffdd57; /* Cor ao passar o mouse */
+}
+
+/* Define estilos para a mensagem de aniversário */
+#message {
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Define estilos para os títulos h1 */
+h1 {
+  font-family: 'Naruto'; /* Usa a fonte personalizada 'Naruto' */
+  font-size: 6rem; /* Define o tamanho da fonte */
+  color: #4E1A4D;; /* Define a cor do texto */
+  margin: 0.5rem; /* Define margem ao redor do texto */
+  animation: glow 1.5s infinite alternate; /* Aplica animação de brilho */
+}
+
+/* Define a animação 'glow' para os títulos */
+@keyframes glow {
+  0% {
+    text-shadow:
+      0 0 5px #4E1A4D,
+      0 0 10px #8d2e8b,
+      0 0 15px #4E1A4D
+  }
+  100% {
+    text-shadow: 
+    0 0 10px #fc53f9, 
+    0 0 20px rgb(255, 19, 0), 
+    0 0 30px #fa04f6;
+  }
+  
+}
+
+/* Define uma animação de piscar para elementos com a classe 'fa-blink' */
+.fa-blink {
+    animation: blink 1.75s linear infinite;
+}
+
+/* Define a animação 'blink' */
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0.9;
+    }
+}
+
+/* Define o container para os confettis */
+.confetti-container {
+    position: absolute; /* Posiciona o container de forma absoluta */
+    top: 0; /* Alinha ao topo da tela */
+    left: 0; /* Alinha à esquerda da tela */
+    width: 100%; /* Define largura de 100% */
+    height: 100%; /* Define altura de 100% */
+    overflow: hidden; /* Oculta barras de rolagem */
+    pointer-events: none; /* Permite que eventos de ponteiro passem pelo container */
+}
+
+/* Define estilos básicos para cada confetti */
+.confetti {
+    width: 15px; /* Define largura do confetti */
+    height: 15px; /* Define altura do confetti */
+    background-color: #f2d74e; /* Define cor de fundo */
+    position: absolute; /* Posiciona de forma absoluta */
+    top: 0; /* Alinha ao topo do container */
+    left: 50%; /* Alinha ao centro horizontal do container */
+    transform-origin: left top; /* Define a origem da transformação */
+    animation: confetti 5s ease-in-out infinite; /* Aplica a animação de confetti */
+}
+
+/* Define cores diferentes para cada segundo confetti */
+.confetti:nth-child(2n) {
+    background-color: #95c3de;
+}
+
+/* Define cores diferentes para cada terceiro confetti */
+.confetti:nth-child(3n) {
+    background-color: #ff9a91;
+}
+
+/* Define a animação 'confetti' */
+@keyframes confetti {
+    0% {
+        transform: rotateZ(15deg) rotateY(0deg) translate(0, 0);
+    }
+    25% {
+        transform: rotateZ(5deg) rotateY(360deg) translate(-5vw, 20vh);
+    }
+    50% {
+        transform: rotateZ(15deg) rotateY(720deg) translate(5vw, 60vh);
+    }
+    75% {
+        transform: rotateZ(5deg) rotateY(1080deg) translate(-10vw, 80vh);
+    }
+    100% {
+        transform: rotateZ(15deg) rotateY(1440deg) translate(10vw, 110vh);
+    }
+}
+
+/* Estilos para o vídeo */
+#background-video {
+    position: fixed; /* Fixa o vídeo na tela */
+    top: 0; /* Alinha ao topo */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Define largura de 100% */
+    height: 100%; /* Define altura de 100% */
+    object-fit: cover; /* Cobre toda a área */
+    z-index: -1; /* Coloca atrás do conteúdo */
+}
+
+
+
+
+
+
+/* Estilos gerais para dispositivos pequenos (como smartphones) */
+@media (max-width: 600px) {
+    .navbar .containerNav {
+        justify-content: center; /* Centraliza os links na versão móvel */
+    }
+
+    .navbar a {
+        font-size: 1.2rem; /* Reduz o tamanho da fonte dos links em dispositivos pequenos */
+        padding: 0.9rem 0.5; /* Espaçamento interno nos links */
+    }
+
+  h1 {
+    font-size: 3rem; /* Reduz o tamanho da fonte dos títulos em dispositivos pequenos */
+  }
+
+  #message {
+    padding: 1rem; /* Adiciona um pouco de preenchimento ao redor da mensagem */
+  }
+
+  .confetti {
+    width: 10px; /* Reduz o tamanho dos confetes */
+    height: 10px;
+  }
+}
+
+
+/* Estilos para dispositivos médios (como tablets) */
+@media (max-width: 900px) and (min-width: 601px) {
+    h1 {
+        font-size: 5rem; /* Ajusta o tamanho da fonte dos títulos para tablets */
+    }
+
+    #message {
+        padding: 2rem; /* Ajusta o preenchimento ao redor da mensagem */
+    }
+
+    .confetti {
+        width: 12px; /* Ajusta o tamanho dos confetes */
+        height: 12px;
+    }
+}
+
+/* Estilos para dispositivos grandes (como desktops) */
+@media (min-width: 901px) {
+    h1 {
+        font-size: 8rem; /* Mantém o tamanho da fonte dos títulos para desktops */
+    }
+
+    .confetti {
+        width: 15px; /* Mantém o tamanho dos confetes */
+        height: 15px;
+    }
+}

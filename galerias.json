@@ -1,0 +1,281 @@
+[
+    {
+        "nome": "Como ele comem gente",
+        "folder": "Comendo",
+        "imagens": [
+            {
+                "src": "imagem/Ele/Comendo/1. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/2. .jpg",
+                "descricao": "Imagem 2 da Galeria 1"
+            },
+            {
+                "src": "imagem/Ele/Comendo/3. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/4. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/5. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/6. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/7. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/8. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/9. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/10. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/11. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/12. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/13. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/14. .mp4",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/15. .mp4",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/16. .mp4",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/17. .jpg",
+                "descricao": "Como Come"
+            },
+            {
+                "src": "imagem/Ele/Comendo/18. .jpg",
+                "descricao": "Como Come"
+            }
+        ]
+    },
+    {
+        "nome": "Bico de pato",
+        "folder": "beijo",
+        "imagens": [
+            {
+                "src": "imagem/Ele/beijo/1.jpg",
+                "descricao": "Imagem 1 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/beijo/2.jpg",
+                "descricao": "Imagem 2 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/beijo/3.jpg",
+                "descricao": "Imagem 3 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/beijo/4.jpg",
+                "descricao": "Imagem 4 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/beijo/5.jpg",
+                "descricao": "Imagem 4 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/beijo/5.jpg",
+                "descricao": "Imagem 4 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/beijo/6.jpg",
+                "descricao": "Imagem 4 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/beijo/7.jpg",
+                "descricao": "Imagem 4 da Galeria 2"
+            }
+        ]
+    },
+    {
+        "nome": "Como ele é trabalhandor",
+        "folder": "trabalhador",
+        "imagens":[
+            {
+                "src": "imagem/Ele/trabalhador/1.jpg",
+                "descricao": "Imagem 1 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/trabalhador/2.jpg",
+                "descricao": "Imagem 2 da Galeria 2"
+            }
+            ,
+            {
+                "src": "imagem/Ele/trabalhador/3.jpg",
+                "descricao": "Imagem 2 da Galeria 2"
+            }
+            ,
+            {
+                "src": "imagem/Ele/trabalhador/4.jpg",
+                "descricao": "Imagem 2 da Galeria 2"
+            }
+        ]
+    },
+    {
+        "nome": "Como ele é Gostoso",
+        "folder": "Sexy",
+        "imagens":[
+            {
+                "src": "imagem/Ele/Sexy/1.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/2.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/3.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/4.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/5.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/6.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/7.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/8.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/9.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/10.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/11.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/12.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/13.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/14.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/15.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/16.jpg",
+                "descricao": "Imagem"
+            },
+            {
+                "src": "imagem/Ele/Sexy/17.jpg",
+                "descricao": "Imagem"
+            }
+        ]
+    },
+    {
+        "nome": "Meme",
+        "folder": "Figurinhas",
+        "imagens":[
+            { "src": "imagem/Ele/Figurinhas/1.jpg", "descricao": "Acho que fiz coco" },
+            { "src": "imagem/Ele/Figurinhas/2.jpg", "descricao": "Ai caliquinha" },
+            { "src": "imagem/Ele/Figurinhas/3.jpg", "descricao": "É serio que pago minha internet para isso" },
+            { "src": "imagem/Ele/Figurinhas/4.jpg", "descricao": "Estou cansada" },
+            { "src": "imagem/Ele/Figurinhas/5.jpg", "descricao": "Estou chocada" },
+            { "src": "imagem/Ele/Figurinhas/6.jpg", "descricao": "iii fiz merda" },
+            { "src": "imagem/Ele/Figurinhas/7.jpg", "descricao": "Na rua bebado" },
+            { "src": "imagem/Ele/Figurinhas/8.jpg", "descricao": "Olha como sou debochada" },
+            { "src": "imagem/Ele/Figurinhas/9.jpg", "descricao": "Olha como sou nene" },
+            { "src": "imagem/Ele/Figurinhas/10.png", "descricao": "Pois é acontece" },
+            { "src": "imagem/Ele/Figurinhas/11.jpg", "descricao": "por favozinho" },
+            { "src": "imagem/Ele/Figurinhas/12.jpg", "descricao": "Que merda essa" },
+            { "src": "imagem/Ele/Figurinhas/13.jpg", "descricao": "Quem peidou" },
+            { "src": "imagem/Ele/Figurinhas/14.jpg", "descricao": "Robei o celular da tia" },
+            { "src": "imagem/Ele/Figurinhas/15.jpg", "descricao": "Só a cabecinha" },
+            { "src": "imagem/Ele/Figurinhas/16.jpg", "descricao": "Só gente, sumi, mas estou bem" },
+            { "src": "imagem/Ele/Figurinhas/17.jpg", "descricao": "Sou gostosi" },
+            { "src": "imagem/Ele/Figurinhas/18.jpg", "descricao": "Ssiiiiimmm" },
+            { "src": "imagem/Ele/Figurinhas/19.jpg", "descricao": "Tirou o oculos, e porque a porrar vai ficar seria" },
+            { "src": "imagem/Ele/Figurinhas/20.jpg", "descricao": "To passada" }
+        ]
+    },
+    {
+        "nome": "Aleatorias",
+        "folder": "videos",
+        "imagens":[
+            {
+                "src": "imagem/Ele/videos/1.mp4",
+                "descricao": "Imagem 1 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/videos/2.mp4",
+                "descricao": "Imagem 2 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/videos/3.mp4",
+                "descricao": "Imagem 2 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/videos/4.mp4",
+                "descricao": "Imagem 2 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/videos/5.mp4",
+                "descricao": "Imagem 2 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/videos/6.mp4",
+                "descricao": "Imagem 2 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/videos/7.mp4",
+                "descricao": "Imagem 2 da Galeria 2"
+            },
+            {
+                "src": "imagem/Ele/videos/8.mp4",
+                "descricao": "Imagem 2 da Galeria 2"
+            }
+        ]
+    }
+
+]
